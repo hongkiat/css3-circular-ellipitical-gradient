@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>CSS3 Elliptical and Circular Gradients - Hongkiat.com</title>
+
+<!--  jquery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../_nav/js/jquery.js"><\/script>')</script>
+
+<!-- demo scripts -->
+<style type="text/css" media="screen">
+	html {
+		background-color: #eee;
+	}
+	.demo-wrapper div {
+		width: 910px;
+		height: 250px;
+		padding: 10px;
+		margin: 25px auto;
+		border: 5px solid #fff;
+	}
+	.demo-wrapper h3 {
+		font-family: Arial, sans-serif;
+		text-align: center;
+		margin: 0px auto 10px;
+		color: #333;
+	}
+	.demo-wrapper pre {
+		margin: 10px auto;
+		padding: 10px;
+		width:	890px;
+	}
+	.demo-wrapper div.ellipse {
+		background-image: radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+		background-image: -o-radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+		background-image: -ms-radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+		background-image: -moz-radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+		background-image: -webkit-radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+	}
+	.demo-wrapper div.circle {
+		background-image: radial-gradient(center center, circle cover, #ffeda3, #ffc800);
+		background-image: -o-radial-gradient(center center, circle cover, #ffeda3, #ffc800);
+		background-image: -ms-radial-gradient(center center, circle cover, #ffeda3, #ffc800);
+		background-image: -moz-radial-gradient(center center, circle cover, #ffeda3, #ffc800);
+		background-image: -webkit-radial-gradient(center center, circle cover, #ffeda3, #ffc800);
+	}
+</style>
+
+<!-- nav script -->
+<script src="../_nav/js/nav.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!-- nav meta -->
+<div class="demo-meta">
+	<h1 class="demo-title">CSS3 Elliptical and Circular Gradients</h1>
+	<p class="demo-desc">With the new CSS3 specification, we are now able to create color gradients. 
+  	Including elliptical and circular form of gradient. This demo show you how to this effect is achieved.</p>
+</div>
+
+<!-- demo content -->
+<div class="demo-wrapper">
+
+<div class="ellipse">
+<h3>Elliptical Gradient</h3>
+<pre>
+div {
+	background-image: radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+	background-image: -o-radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+	background-image: -ms-radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+	background-image: -moz-radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+	background-image: -webkit-radial-gradient(center bottom, ellipse cover, #ffeda3, #ffc800);
+}
+</pre>
+</div>
+<div class="circle">
+<h3>Circular Gradient</h3>
+<pre>
+div {
+	background-image: radial-gradient(center center, circle cover, #ffeda3, #ffc800);
+	background-image: -o-radial-gradient(center center, circle cover, #ffeda3, #ffc800);
+	background-image: -ms-radial-gradient(center center, circle cover, #ffeda3, #ffc800);
+	background-image: -moz-radial-gradient(center center, circle cover, #ffeda3, #ffc800);
+	background-image: -webkit-radial-gradient(center center, circle cover, #ffeda3, #ffc800);
+}
+</pre>
+</div>
+
+</div>
+
+</body>
+</html>
